@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		75519723250A8AE00084C4AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75519722250A8AE00084C4AD /* AppDelegate.swift */; };
 		75519725250A8AE00084C4AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75519724250A8AE00084C4AD /* SceneDelegate.swift */; };
-		75519727250A8AE00084C4AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75519726250A8AE00084C4AD /* ViewController.swift */; };
+		75519727250A8AE00084C4AD /* FirstTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75519726250A8AE00084C4AD /* FirstTable.swift */; };
 		7551972A250A8AE00084C4AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75519728250A8AE00084C4AD /* Main.storyboard */; };
 		7551972C250A8AE50084C4AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7551972B250A8AE50084C4AD /* Assets.xcassets */; };
 		7551972F250A8AE50084C4AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7551972D250A8AE50084C4AD /* LaunchScreen.storyboard */; };
+		75519737250AA6810084C4AD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75519736250AA6810084C4AD /* Person.swift */; };
+		75519739250AA9910084C4AD /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75519738250AA9910084C4AD /* DataManager.swift */; };
+		7551973B250B9E010084C4AD /* DetailsFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551973A250B9E010084C4AD /* DetailsFirstViewController.swift */; };
+		7551973D250BCFC00084C4AD /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551973C250BCFC00084C4AD /* SecondTableViewController.swift */; };
+		7551973F250BD15B0084C4AD /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551973E250BD15B0084C4AD /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7551971F250A8ADF0084C4AD /* TableVIewHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableVIewHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75519722250A8AE00084C4AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75519724250A8AE00084C4AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75519726250A8AE00084C4AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75519726250A8AE00084C4AD /* FirstTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTable.swift; sourceTree = "<group>"; };
 		75519729250A8AE00084C4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7551972B250A8AE50084C4AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7551972E250A8AE50084C4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75519730250A8AE50084C4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75519736250AA6810084C4AD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		75519738250AA9910084C4AD /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		7551973A250B9E010084C4AD /* DetailsFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFirstViewController.swift; sourceTree = "<group>"; };
+		7551973C250BCFC00084C4AD /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		7551973E250BD15B0084C4AD /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 			children = (
 				75519722250A8AE00084C4AD /* AppDelegate.swift */,
 				75519724250A8AE00084C4AD /* SceneDelegate.swift */,
-				75519726250A8AE00084C4AD /* ViewController.swift */,
+				75519726250A8AE00084C4AD /* FirstTable.swift */,
 				75519728250A8AE00084C4AD /* Main.storyboard */,
+				7551973C250BCFC00084C4AD /* SecondTableViewController.swift */,
+				7551973E250BD15B0084C4AD /* TabBarViewController.swift */,
+				7551973A250B9E010084C4AD /* DetailsFirstViewController.swift */,
+				75519736250AA6810084C4AD /* Person.swift */,
+				75519738250AA9910084C4AD /* DataManager.swift */,
 				7551972B250A8AE50084C4AD /* Assets.xcassets */,
 				7551972D250A8AE50084C4AD /* LaunchScreen.storyboard */,
 				75519730250A8AE50084C4AD /* Info.plist */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75519727250A8AE00084C4AD /* ViewController.swift in Sources */,
+				7551973F250BD15B0084C4AD /* TabBarViewController.swift in Sources */,
+				7551973B250B9E010084C4AD /* DetailsFirstViewController.swift in Sources */,
+				75519727250A8AE00084C4AD /* FirstTable.swift in Sources */,
+				75519739250AA9910084C4AD /* DataManager.swift in Sources */,
 				75519723250A8AE00084C4AD /* AppDelegate.swift in Sources */,
+				7551973D250BCFC00084C4AD /* SecondTableViewController.swift in Sources */,
+				75519737250AA6810084C4AD /* Person.swift in Sources */,
 				75519725250A8AE00084C4AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
